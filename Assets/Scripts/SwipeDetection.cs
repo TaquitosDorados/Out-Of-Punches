@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class SwipeDetection : MonoBehaviour
 {
+    public MauricioMovement mauricio;
+
     [SerializeField]
     private float minDistance = .2f;
     [SerializeField]
@@ -60,18 +62,22 @@ public class SwipeDetection : MonoBehaviour
         if(Vector2.Dot(Vector2.up,direction) > directionThreshold)
         {
             Debug.Log("Swipe Up");
+            mauricio.StarPunch();
         }
         else if (Vector2.Dot(Vector2.down, direction) > directionThreshold)
         {
             Debug.Log("Swipe Down");
+            mauricio.Duck();
         }
         else if (Vector2.Dot(Vector2.left, direction) > directionThreshold)
         {
             Debug.Log("Swipe Left");
+            mauricio.DodgeLeft();
         }
         else if (Vector2.Dot(Vector2.right, direction) > directionThreshold)
         {
             Debug.Log("Swipe Right");
+            mauricio.DodgeRight();
         }
     }
 }

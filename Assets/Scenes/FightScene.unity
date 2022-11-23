@@ -321,6 +321,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 092be283e0dc1a740952946337b380d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mauricio: {fileID: 1832745751}
   minDistance: 0.2
   maxTime: 1
   directionThreshold: 0.9
@@ -362,6 +363,7 @@ GameObject:
   - component: {fileID: 1832745750}
   - component: {fileID: 1832745749}
   - component: {fileID: 1832745748}
+  - component: {fileID: 1832745751}
   m_Layer: 0
   m_Name: Little Mac
   m_TagString: Untagged
@@ -456,3 +458,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1832745751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832745747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1bf85a72a00e2e4db6c388cc76066f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
