@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -76,9 +76,1149 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 783
+        width: 31
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed15a8bc29fd5784c95b38f853e63543
+      internalID: 538522957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 783
+        width: 31
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f1389ab85ea9b46b89e05bf5e09dd8
+      internalID: -1133742431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 783
+        width: 31
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b7ef5efc51d8945832491bc83ef021
+      internalID: -1860481296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_3
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 783
+        width: 29
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c043f22abea5940a34577e37f638ec
+      internalID: -1933106806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_4
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 783
+        width: 30
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ea020c746e7514099e3291b66d2dbc
+      internalID: 749323463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_5
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 783
+        width: 29
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1164ac310edbdec449d36355989827ae
+      internalID: 663543840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_6
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 783
+        width: 29
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dee5307b4a3a8745a95d9270fee7f51
+      internalID: 122277285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 783
+        width: 30
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8715038d61f29f44b8d5002a3317265c
+      internalID: -399671382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_8
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 783
+        width: 29
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ce330d9de42914e95fa1628d00e0d5
+      internalID: -601968637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_9
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 783
+        width: 31
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96552a61c80d6364cae383319ba6da78
+      internalID: 264979372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_10
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 783
+        width: 31
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a691dd1d1ca6d554d97cc9457931903b
+      internalID: 641502213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_11
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 783
+        width: 31
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd57d789776ce84891df9411ba5c76f
+      internalID: 1792146983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_12
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 670
+        width: 29
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1126aff4f34d2e84ea7db90b25547127
+      internalID: 1783318294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_13
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 670
+        width: 29
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053e1203e06dbf5468c33d057cacebef
+      internalID: 451325383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_14
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 670
+        width: 29
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97f46cad6dff7645a056e219e9a12fe
+      internalID: -55165372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_15
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 670
+        width: 29
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb6de1b3199b364087106c80b1796da
+      internalID: -1744270173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_16
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 670
+        width: 29
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de58db28566a8ee42b510d18279a1e25
+      internalID: -684861564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_17
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 670
+        width: 30
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1376dfbd58099b4bb66035d88b3c4cb
+      internalID: -1478784031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_18
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 566
+        width: 35
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d119ceb38454c34b83f2ef8df8eb6f6
+      internalID: 87454001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_19
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 566
+        width: 35
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfeba4b552871142ba353289b3abd61
+      internalID: 1004475965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_20
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 566
+        width: 34
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d47725e1b4f3bc408e7b2bdcb065182
+      internalID: -288772760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_21
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 566
+        width: 39
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e8b330bc1de9a438778d5bde7b5e28
+      internalID: 1659570633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_22
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 454
+        width: 29
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728e7a659459c5242a0d0ca1ac68db97
+      internalID: -1032161598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_23
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 454
+        width: 31
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec0e0c5900619d4e82aa3b3628b5066
+      internalID: -1198239974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_24
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 454
+        width: 29
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945d8fad56fb4584095488879bdec979
+      internalID: 983399225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_25
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 454
+        width: 31
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068d93f2a13d5b345b255fb2a2b5cea7
+      internalID: -176364047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_26
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 454
+        width: 29
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f09893648e14e34a9647fb6664560cf
+      internalID: -806150720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_27
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 454
+        width: 29
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbe9f07339f8374293a2178b1f94023
+      internalID: 922532981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_28
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 454
+        width: 31
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f7e0fa67efa20438f4d2d377c75e07
+      internalID: -1797365806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_29
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 454
+        width: 29
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d79026c8c9aa86a439a0304a43d3dd4b
+      internalID: 1415751262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_30
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 454
+        width: 29
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41207334d505344cbd770bf8c097af4
+      internalID: -338948317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_31
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 454
+        width: 31
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651be6203ae013b4d908be7347aed420
+      internalID: 1496803712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_32
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 454
+        width: 35
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddce0728fc6125345bfc75b75b80bfe1
+      internalID: 1995218426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_33
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 454
+        width: 35
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa572550a26ddeb4c884c5a93b08b6ca
+      internalID: -243795626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_34
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 453
+        width: 34
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c96b0abeded4a24a86a2af8be6190bb
+      internalID: -739257201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_35
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 453
+        width: 39
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ccb5d45a708f7649a7e4120cb2c31b4
+      internalID: -907327787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_36
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 345
+        width: 32
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b0ceaa4b675cc409e0dc0d54fdebf2
+      internalID: 1949054151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_37
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 345
+        width: 32
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9fc9fe0cb1eaf44ba29b48e0969daf
+      internalID: 126595421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_38
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 345
+        width: 34
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab13df14b45026844bd6fc73aa8a1319
+      internalID: 1112946103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_39
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 345
+        width: 34
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94cf68e0a1ffbd64586b11a29939dfb3
+      internalID: -1974619721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_40
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 345
+        width: 34
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c251737c5bf901448a75e6904b5f3a3
+      internalID: 274937730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_44
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 230
+        width: 32
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7e7578a688a6746943c19340249003
+      internalID: 338254133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_45
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 230
+        width: 31
+        height: 106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea929762a6f95ac4bb82641a8c60f8e2
+      internalID: -1662656637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_46
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 230
+        width: 35
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3f2c9def3c60e4986c233ac9e0a2e3
+      internalID: 1317202326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_47
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 230
+        width: 45
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ecb39a2cf6f12145ad2a2007a4b8b6c
+      internalID: -629994450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_54
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 132
+        width: 41
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2841017f8a18095429abf7bf244f46df
+      internalID: 1986455674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_55
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 132
+        width: 44
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f427bee8326461047bb714533603a20e
+      internalID: 249597768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_56
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 132
+        width: 57
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7971f976b86ea8442b2688e1e44b4893
+      internalID: 532553508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_57
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 131
+        width: 57
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847e19902a916164b8082d2e0ff77edf
+      internalID: -1975942139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_58
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 132
+        width: 40
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7206c2a3c55d840b869be43df83865
+      internalID: -1568113823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_69
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 11
+        width: 33
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074e73a0492bb0548bad4198774d465b
+      internalID: 1900330763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_71
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 11
+        width: 31
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3e186950e27bb439596b87fc88146b
+      internalID: -1609474540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +1229,79 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_11: 1792146983
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_10: 641502213
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_22: -1032161598
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_24: 983399225
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_52: -1435066516
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_21: 1659570633
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_45: -1662656637
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_64: 800868875
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_26: -806150720
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_6: 122277285
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_56: 532553508
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_1: -1133742431
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_71: -1609474540
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_30: -338948317
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_16: -684861564
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_70: 780285399
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_51: -1878756414
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_39: -1974619721
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_55: 249597768
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_14: -55165372
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_31: 1496803712
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_48: -516014919
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_46: 1317202326
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_42: -781901623
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_29: 1415751262
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_49: -504564800
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_53: -525307496
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_66: 1962720332
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_37: 126595421
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_19: 1004475965
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_62: -499964089
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_69: 1900330763
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_67: -2084111992
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_60: -556908273
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_5: 663543840
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_12: 1783318294
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_44: 338254133
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_0: 538522957
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_20: -288772760
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_63: 1140076864
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_32: 1995218426
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_33: -243795626
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_17: -1478784031
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_8: -601968637
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_27: 922532981
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_9: 264979372
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_7: -399671382
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_61: 1393512383
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_57: -1975942139
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_15: -1744270173
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_40: 274937730
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_50: -602764845
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_43: 1236923658
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_2: -1860481296
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_18: 87454001
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_36: 1949054151
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_65: 996627694
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_23: -1198239974
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_28: -1797365806
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_3: -1933106806
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_4: 749323463
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_35: -907327787
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_34: -739257201
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_13: 451325383
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_47: -629994450
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_41: -731513753
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_58: -1568113823
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_25: -176364047
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_38: 1112946103
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_59: 97713933
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_54: 1986455674
+      NES - Punch-Out Mike Tysons Punch-Out - Glass Joe_68: 1434311516
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

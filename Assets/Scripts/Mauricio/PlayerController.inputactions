@@ -1,0 +1,122 @@
+{
+    "name": "PlayerController",
+    "maps": [
+        {
+            "name": "Touch",
+            "id": "608ace37-73d4-47b6-94ce-7222d134184b",
+            "actions": [
+                {
+                    "name": "FirstContact",
+                    "type": "PassThrough",
+                    "id": "101a3ddd-9cad-417c-98a0-3739c4112795",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "FirstPosition",
+                    "type": "PassThrough",
+                    "id": "56ceb425-10b1-401a-9b55-8566386d8b75",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Tap",
+                    "type": "PassThrough",
+                    "id": "050a9a80-1a4d-4909-a34e-d0b2fbf149a5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Hold",
+                    "type": "Button",
+                    "id": "6ecdf1cb-3445-4f63-8a06-ec6574d2d00b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Hold(duration=0.15)",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ac9f1a64-6cdc-4d36-be32-73fa41be841e",
+                    "path": "<Touchscreen>/primaryTouch/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FirstContact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "833a42ca-f022-4561-b83d-ee6d8e7aefc7",
+                    "path": "<Touchscreen>/primaryTouch/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FirstPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2872116c-8d38-40a7-9f84-511f6d5fe62a",
+                    "path": "<Touchscreen>/primaryTouch/tap",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Tap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b0d11d30-3b49-48ea-87ef-4f979d82c413",
+                    "path": "<Touchscreen>/primaryTouch/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Hold",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Debug",
+            "id": "771cf746-05ef-44db-a5b7-d11940ad2d5b",
+            "actions": [
+                {
+                    "name": "Debug",
+                    "type": "Button",
+                    "id": "fa6e3427-2af7-46f4-aed2-036f6e7acdfe",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4b270886-09b2-480a-b9b9-52672558ee26",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Debug",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

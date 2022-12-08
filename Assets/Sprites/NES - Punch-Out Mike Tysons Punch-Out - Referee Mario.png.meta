@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -76,9 +76,498 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 418
+        width: 26
+        height: 48
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c6b7fcc7e9af8408f9f3e1ccd8a80d
+      internalID: -210792304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 418
+        width: 26
+        height: 48
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9cb2c6ef170d054ab12161751e3e188
+      internalID: 1659485819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_2
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 362
+        width: 26
+        height: 48
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a862476913112046ab00e728abf4c68
+      internalID: -2122127007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_3
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 362
+        width: 28
+        height: 48
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4522239b92c9229479d25a8a02d730ac
+      internalID: -484051930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_4
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 362
+        width: 38
+        height: 48
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33f429a996d92546a2f5ab7f3c34b55
+      internalID: -1282268662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_5
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 362
+        width: 38
+        height: 48
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617867c2917ec6546932dec530ac483b
+      internalID: -158916502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_6
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 362
+        width: 38
+        height: 48
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848fad574c665144fa86f3d6ba77f433
+      internalID: 370992284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_7
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 362
+        width: 38
+        height: 48
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c766cf98b0a544986204b411cb3c29
+      internalID: -351445488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 305
+        width: 38
+        height: 48
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac57b7f8af104a428c7931ad99dd04d
+      internalID: 1506848339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_9
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 305
+        width: 38
+        height: 48
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472c464ab6722784aadabc02e0984cbd
+      internalID: -372324901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_10
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 305
+        width: 38
+        height: 48
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df2150918afe374081ef08f59822183
+      internalID: 1520678296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_11
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 305
+        width: 38
+        height: 48
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0eb68e736f427e4dbdd5039233794e8
+      internalID: 650557390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_12
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 305
+        width: 38
+        height: 48
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c883764a657f1f443aa07343c05558ff
+      internalID: -2072883871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_13
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 305
+        width: 38
+        height: 48
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143c3ccce16924543b7f383c9b275fdf
+      internalID: 945366285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_14
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 305
+        width: 35
+        height: 48
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c61ebea79abec4fa47f794de2d24b7
+      internalID: 26427804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_15
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 248
+        width: 62
+        height: 48
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ac1f5ef1e9d13429a4f3c1dfe4e0bf
+      internalID: 1288801756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_16
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 190
+        width: 29
+        height: 50
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d03fcb0d88982a40b0208d8aea1fc78
+      internalID: -880730657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_17
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 190
+        width: 29
+        height: 48
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47719589cb148043803392fd40b4af1
+      internalID: 1612291620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_18
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 190
+        width: 62
+        height: 48
+      alignment: 9
+      pivot: {x: 0.44, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498e713e2a3a2e247a83429323d38500
+      internalID: 149726215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_19
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 190
+        width: 62
+        height: 48
+      alignment: 9
+      pivot: {x: 0.44, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3340d003b7c948f40aec69a896a2e35d
+      internalID: -1219226811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_20
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 132
+        width: 27
+        height: 48
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f0f354fe5a5d149ba8ff940755856c
+      internalID: 965495439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +578,28 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_3: -484051930
+      NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_9: -372324901
+      NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_6: 370992284
+      NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_16: -880730657
+      NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_12: -2072883871
+      NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_14: 26427804
+      NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_17: 1612291620
+      NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_11: 650557390
+      NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_2: -2122127007
+      NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_1: 1659485819
+      NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_20: 965495439
+      NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_19: -1219226811
+      NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_0: -210792304
+      NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_7: -351445488
+      NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_4: -1282268662
+      NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_15: 1288801756
+      NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_10: 1520678296
+      NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_5: -158916502
+      NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_13: 945366285
+      NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_8: 1506848339
+      NES - Punch-Out Mike Tysons Punch-Out - Referee Mario_18: 149726215
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
