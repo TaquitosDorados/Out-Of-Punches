@@ -37,6 +37,7 @@ public class UIManager : MonoBehaviour
     public void ChangeScene(string level)
     {
         SceneManager.LoadScene(level);
+        Time.timeScale = 1;
     }
     
     public void ExitGame()
