@@ -21,8 +21,6 @@ public class JoeBehaviour : MonoBehaviour
     private bool inAction;
     private JoeFight manager;
 
-    //Usa invokes para revisar cada segundo si va a hacer algo
-
     void Start()
     {
         manager = FindObjectOfType<JoeFight>();

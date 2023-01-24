@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -76,9 +76,717 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: start1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 712
+        width: 40
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4bc758276736848a3fc698b3902c52
+      internalID: -1006979964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: start2
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 714
+        width: 43
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba41747fef83a44a974ffe9dbf7ecde
+      internalID: -1003412762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: start3
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 712
+        width: 42
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba84ee59e1c6b8f4eafb023c8b39dcae
+      internalID: 2022697999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: start4
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 712
+        width: 39
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10487352c3ec3f64081de5e1888989e5
+      internalID: -5107503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 749
+        width: 78
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6969e8aea49db1499280b6efed074ab
+      internalID: 1935700514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: start5
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 591
+        width: 41
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989af7497d1529340872cbe2e8635c7f
+      internalID: 435630844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 592
+        width: 45
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6feb79447d5cd429a3be6c332787cc
+      internalID: 888100606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle2
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 593
+        width: 45
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36491174b572d9543be6b266e7b677db
+      internalID: 909500653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle3
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 592
+        width: 43
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b40510326ec5f40b25435a1a7a1e7f
+      internalID: 533313189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hook1
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 471
+        width: 43
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e431d6dfbf8934087fc88b63429b95
+      internalID: -315274411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hook2
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 474
+        width: 56
+        height: 106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be425d9d121162542882bdbd49a72193
+      internalID: 39728752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hook3
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 472
+        width: 37
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad293a51369f1e4790685289720206c
+      internalID: 1255011225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jab1
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 468
+        width: 48
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e1953b32b9bae48a4655233da1f93f
+      internalID: 58014732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jab2
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 472
+        width: 41
+        height: 104
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1327e4a65b51dad47b8ea31f837cf932
+      internalID: -373928917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stun
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 348
+        width: 39
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa90765ada494a41b0bd93d8790bf97
+      internalID: 849456737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit2
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 351
+        width: 59
+        height: 106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f3324298927ca4893babf70a74ed9f
+      internalID: 1906354781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit1
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 348
+        width: 54
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c64988352736cc46a4f727d16a350fb
+      internalID: -783077328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_51
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 352
+        width: 53
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50efc3df7ddae144bb7ad9f38b3fe69
+      internalID: -1583788345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ko1
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 236
+        width: 61
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40e3a4e3d34d46468f2904964398eef
+      internalID: -1210159656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ko2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 237
+        width: 54
+        height: 103
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab04d33d31b98b4ba3e55716af30c3e
+      internalID: 974161701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recover
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 242
+        width: 49
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422d554b9e9cdd543bd6f6ae607756a3
+      internalID: 1802381092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: down
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 237
+        width: 60
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329708a4c21e8234b92457d145a849b8
+      internalID: -770994512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uppercut1
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 121
+        width: 45
+        height: 106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d568a89cadd37439652bad52f444fc
+      internalID: -770577795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uppercut2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 121
+        width: 46
+        height: 106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3691b684d985a2f43a8438595c4ab18e
+      internalID: 870596472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uppercut5
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 120
+        width: 47
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4851874ceb04d8846932af402ec868cc
+      internalID: -1695071514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uppercut3
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 121
+        width: 44
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50a5c143008beb4fbdba52ec32a5d06
+      internalID: -1801795745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uppercut4
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 120
+        width: 50
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba174792960fa64689c52f2aacbcec7
+      internalID: 948363781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taunt1
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1
+        width: 54
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c330e125c9f49468ccccf429e7a148
+      internalID: 1917025751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taunt2
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 0
+        width: 50
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43978ae25d71ca44add70dc1ba542c7
+      internalID: 1603546331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taunt3
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 0
+        width: 48
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d613c69afd11c843877ab677100e872
+      internalID: 1426260732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: block
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 5
+        width: 42
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56501a25a69c1614683cffcaf95518a9
+      internalID: -1122885718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_80
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 3
+        width: 40
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ddf5e91afaed2449f34e2532c8b8ee
+      internalID: -495739557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +797,89 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      uppercut1: -770577795
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_12: -442666609
+      start4: -5107503
+      start3: 2022697999
+      Jab2: -373928917
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_46: -196030071
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_32: 1307906263
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_79: -1123576384
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_41: -330180503
+      hit2: 1906354781
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_1: -82800130
+      taunt2: 1603546331
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_0: -345400259
+      idle1: 888100606
+      start1: -1006979964
+      idle2: 909500653
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_38: -1108352448
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_49: -52995631
+      ko2: 974161701
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_23: 72691469
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_63: -494806604
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_35: -2007051780
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_72: 846839618
+      Hook1: -315274411
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_3: 2060772221
+      Jab1: 58014732
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_4: -1461765352
+      uppercut4: 948363781
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_56: -312827831
+      hit1: -783077328
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_68: -116470371
+      uppercut3: -1801795745
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_26: -1211591342
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_20: -1185134779
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_25: 286857174
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_48: 311072256
+      stun: 849456737
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_53: 1127136336
+      taunt1: 1917025751
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_80: -495739557
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_30: 1042497329
+      start2: -1003412762
+      start5: 435630844
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_57: -256186616
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_62: -1961722639
+      ko1: -1210159656
+      uppercut5: -1695071514
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_21: 1441075967
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_27: 932967821
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_64: -208812454
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_17: 1799789092
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_18: 1360891634
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_59: -1205168869
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_31: -536527204
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_75: -2122744706
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_47: 1028305805
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_51: -1583788345
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_81: 785553092
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_14: 1038444497
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_55: 1118460717
+      idle3: 533313189
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_9: -259434209
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_29: 1890427470
+      taunt3: 1426260732
+      Hook3: 1255011225
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_61: 1344917950
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_7: 162945460
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_24: 510630525
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_13: 1969791340
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_28: 800024329
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_66: -1820792093
+      1: 1935700514
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_33: 1400432257
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_6: 50432392
+      uppercut2: 870596472
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_70: -321929039
+      recover: 1802381092
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_44: -2022492239
+      block: -1122885718
+      Hook2: 39728752
+      NES - Punch-Out Mike Tysons Punch-Out - Mike Tyson_43: 2112844629
+      down: -770994512
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

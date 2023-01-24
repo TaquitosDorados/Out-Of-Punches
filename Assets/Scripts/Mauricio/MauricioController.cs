@@ -13,6 +13,7 @@ public class MauricioController : MonoBehaviour
     public bool punching;
     public bool Fighting;
     public bool KOpunch;
+    public bool fightEnded;
 
     public GameObject NoStar;
 
@@ -22,11 +23,14 @@ public class MauricioController : MonoBehaviour
     private int tapsNeeded = 20;
     [SerializeField]
     private int currentTaps;
+    [SerializeField] private int stamina;
+    private bool exhausted;
 
     private void Start()
     {
         macAnimator = GetComponent<Animator>();
         health = GetComponent<Health>();
+        stamina = 10;
     }
     private void LateUpdate()
     {
@@ -56,6 +60,16 @@ public class MauricioController : MonoBehaviour
         {
             inAction = true;
         }
+
+        if (stamina <= 0)
+        {
+            exhausted = true;
+            macAnimator.SetBool("Exhaustion", true);
+        }else
+        {
+            exhausted = false;
+            macAnimator.SetBool("Exhaustion", false);
+        }
     }
 
     public void StartFight()
@@ -66,7 +80,7 @@ public class MauricioController : MonoBehaviour
     IEnumerator StartFightCouroutine()
     {
         macAnimator.SetTrigger("StartFight");
-        yield return new WaitForSeconds(4.13f);
+        yield return new WaitForSeconds(4.8f);
         Fighting = true;
     }
 
@@ -106,7 +120,7 @@ public class MauricioController : MonoBehaviour
     }
     public void Punch()
     {
-        if (!Fighting || inAction || punching)
+        if (!Fighting || exhausted || punching || inAction)
             return;
         StopAllCoroutines();
         StartCoroutine(PunchCouroutine());
@@ -125,7 +139,7 @@ public class MauricioController : MonoBehaviour
     }
     public void StarPunch()
     {
-        if (!Fighting || inAction || !SuperPunchLoaded)
+        if (!Fighting || inAction || !SuperPunchLoaded || exhausted)
             return;
         StopAllCoroutines();
         StartCoroutine(StarPunchCoroutine());
@@ -189,9 +203,14 @@ public class MauricioController : MonoBehaviour
 
     public void KoTapping()
     {
+        if (fightEnded) return;
+
         currentTaps++;
+        health.saludUI.llenarBarra(currentTaps, tapsNeeded);
         if (currentTaps >= tapsNeeded)
         {
+            health.saludUI.tapUI.SetActive(false);
+            stamina = 10;
             KO = false;
             macAnimator.SetBool("KO'd", false);
             StartFight();
@@ -206,6 +225,21 @@ public class MauricioController : MonoBehaviour
         Fighting = false;
         StopAllCoroutines();
         macAnimator.Play("FirstPosition");
+    }
+
+    public void Exhaust()
+    {
+        stamina--;
+        health.saludUI.DisplayStamina(stamina);
+    }
+
+    public void Recover()
+    {
+        if (stamina <= 0)
+        {
+            stamina = 10;
+            health.saludUI.DisplayStamina(stamina);
+        }
     }
 
     public void Victory()

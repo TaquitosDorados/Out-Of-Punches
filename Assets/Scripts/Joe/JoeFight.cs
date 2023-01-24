@@ -23,11 +23,15 @@ public class JoeFight : MonoBehaviour
     public AudioClip superPunchSound;
     public AudioClip joeJabSound;
     public AudioClip joeUpperSound;
+    public AudioClip starSound;
 
     public float MacPunchDmg;
     public float MacSuperDmg;
     public float JoeJabDmg;
     public float JoeUpperDmg;
+
+    private float dmgOnMac = 0;
+    private float dmgOnJoe = 0;
 
     public bool fightEnded;
 
@@ -36,7 +40,6 @@ public class JoeFight : MonoBehaviour
     private bool timerOn;
     private int MacKOthisRound;
     private int JoeKOthisRound;
-    [SerializeField]
     private int Round = 1;
 
     private void Start()
@@ -120,14 +123,19 @@ public class JoeFight : MonoBehaviour
             if (Joe.canBlock)
             {
                 Joe.Block();
-                //Quitar Stamina
+                player.Exhaust();
             } else
             {
-                if (Joe.givesStar)
-                    player.SuperPunchLoaded = true;
                 playerAudio.clip = jabSound;
                 playerAudio.Play();
+                if (Joe.givesStar)
+                {
+                    player.SuperPunchLoaded = true;
+                    playerAudio.clip = starSound;
+                    playerAudio.Play();
+                }
                 Joe.Hit(_damage);
+                dmgOnJoe += _damage;
                 CheckForKO();
             }
         }
@@ -140,32 +148,49 @@ public class JoeFight : MonoBehaviour
             playerAudio.clip = superPunchSound;
             playerAudio.Play();
             Joe.Hit(_damage);
+            dmgOnJoe += _damage;
             CheckForKO();
         }
     }
 
     public void JabPlayer(float _damage)
     {
-        if (!player.dodging)
+        if (!player.KO)
         {
-            if (!player.blocking)
+            if (!player.dodging)
             {
-                joeAudio.clip = joeJabSound;
-                joeAudio.Play();
-                player.Hit(_damage);
-                CheckForKO();
+                if (!player.blocking)
+                {
+                    joeAudio.clip = joeJabSound;
+                    joeAudio.Play();
+                    player.Hit(_damage);
+                    dmgOnMac += _damage;
+                    CheckForKO();
+                }
+            }
+            else
+            {
+                player.Recover();
             }
         }
     }
 
     public void UppercutPlayer(float _damage)
     {
-        if (!player.dodging)
+        if (!player.KO)
         {
-            joeAudio.clip = joeUpperSound;
-            joeAudio.Play();
-            player.Hit(_damage);
-            CheckForKO();
+            if (!player.dodging)
+            {
+                joeAudio.clip = joeUpperSound;
+                joeAudio.Play();
+                player.Hit(_damage);
+                dmgOnMac += _damage;
+                CheckForKO();
+            }
+            else
+            {
+                player.Recover();
+            }
         }
     }
 
@@ -178,6 +203,7 @@ public class JoeFight : MonoBehaviour
             if (MacKOthisRound == 3)
             {
                 fightEnded = true;
+                player.fightEnded = true;
                 Joe.Victory();
                 referee.walkinKO();
                 PlayerPrefs.SetInt("Result", 0);
@@ -231,6 +257,7 @@ public class JoeFight : MonoBehaviour
         fightEnded = true;
         Joe.Victory();
         referee.KO();
+        player.fightEnded = true;
         PlayerPrefs.SetInt("Result", 0);
         StartCoroutine(GoToResultScene());
     }
@@ -278,6 +305,14 @@ public class JoeFight : MonoBehaviour
 
         if(Round == 4)
         {
+            if (dmgOnMac > dmgOnJoe)
+            {
+                PlayerPrefs.SetInt("Result", 3); //Por decision perdiste
+            }
+            else
+            {
+                PlayerPrefs.SetInt("Result", 4);//Por decision ganaste
+            }
             SceneManager.LoadScene("JoeResultsScene");
         }else
         {

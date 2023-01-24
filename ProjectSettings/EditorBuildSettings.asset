@@ -9,9 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/StartScene.unity
     guid: 3b837d1f97ee70149b9f93c37534ba46
   - enabled: 1
-    path: Assets/Scenes/FightScene.unity
+    path: Assets/Scenes/JoeFight.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/JoeResultsScene.unity
     guid: 912d2a0b5c8cfd54c855c2092bb32483
+  - enabled: 1
+    path: Assets/Scenes/TysonFight.unity
+    guid: 52429eddc1a1aa2418dd52200239c6fc
+  - enabled: 1
+    path: Assets/Scenes/TysonResultsScene.unity
+    guid: 846edc49447752747983ee2a3a278140
   m_configObjects: {}

@@ -1421,7 +1421,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Fights
+  m_Text: Fight
 --- !u!222 &823706972
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2265,7 +2265,7 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 100
     m_FontStyle: 1
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 0
     m_MaxSize: 120
     m_Alignment: 4
@@ -2542,11 +2542,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: aa1d63154737ca04cb886775f3ece73a, type: 2}
-  m_audioClip: {fileID: 8300000, guid: adb64968064dc55489ab1f8a77e377a7, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 7f0e704e6d4a0ff4cbdc679d74b87845, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -2721,7 +2721,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: FightScene
+          m_StringArgument: JoeFight
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1230088425}
@@ -2973,7 +2973,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.16485186, y: 0.8511059}
   m_AnchorMax: {x: 0.83625925, y: 1}
-  m_AnchoredPosition: {x: -0.6919861, y: 2.3851929}
+  m_AnchoredPosition: {x: -0.69195557, y: 2.3851929}
   m_SizeDelta: {x: 0.31430054, y: -5.306299}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1759862139
