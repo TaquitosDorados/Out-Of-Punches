@@ -11,6 +11,8 @@ public class JoeFight : MonoBehaviour
     public JoeBehaviour Joe;
     private RefereeScript referee;
 
+    [SerializeField]private CameraShader cameraShader;
+
     public Text[] txtRound;
     public Text txtTime;
     public GameObject RoundUI;
@@ -161,6 +163,7 @@ public class JoeFight : MonoBehaviour
             {
                 if (!player.blocking)
                 {
+                    cameraShader.GetHit();
                     joeAudio.clip = joeJabSound;
                     joeAudio.Play();
                     player.Hit(_damage);
@@ -181,6 +184,7 @@ public class JoeFight : MonoBehaviour
         {
             if (!player.dodging)
             {
+                cameraShader.GetHit();
                 joeAudio.clip = joeUpperSound;
                 joeAudio.Play();
                 player.Hit(_damage);
@@ -249,6 +253,8 @@ public class JoeFight : MonoBehaviour
                 StopAllCoroutines();
                 referee.stopCount();
             }
+
+            cameraShader.GetHit();
 
             Debug.Log(i);
             if (i != 10) 

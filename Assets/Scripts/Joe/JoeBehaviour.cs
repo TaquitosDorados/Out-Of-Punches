@@ -210,6 +210,8 @@ public class JoeBehaviour : MonoBehaviour
     {
         
         yield return new WaitForSeconds(2);
+        if (manager.fightEnded)
+            StopCoroutine(TryToGetUp());
         for (int i = 1; i < 10; i++)
         {
             yield return new WaitForSeconds(1);

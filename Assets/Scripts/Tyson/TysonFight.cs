@@ -10,6 +10,8 @@ public class TysonFight : MonoBehaviour
     public TysonBehaviour Tyson;
     private RefereeScript referee;
 
+    [SerializeField] private CameraShader cameraShader;
+
     public Text[] txtRound;
     public Text txtTime;
     public GameObject RoundUI;
@@ -170,6 +172,7 @@ public class TysonFight : MonoBehaviour
             {
                 if (!player.blocking)
                 {
+                    cameraShader.GetHit();
                     TysonAudio.clip = TysonJabSound;
                     TysonAudio.Play();
                     player.Hit(_damage);
@@ -190,6 +193,7 @@ public class TysonFight : MonoBehaviour
         {
             if (!player.dodging)
             {
+                cameraShader.GetHit();
                 TysonAudio.clip = TysonUpperSound;
                 TysonAudio.Play();
                 dmgOnMac += _damage;
@@ -209,6 +213,7 @@ public class TysonFight : MonoBehaviour
         {
             if (!player.dodging)
             {
+                cameraShader.GetHit();
                 TysonAudio.clip = TysonHookSound;
                 TysonAudio.Play();
                 dmgOnMac += _damage;
@@ -272,6 +277,7 @@ public class TysonFight : MonoBehaviour
     {
         yield return new WaitForSeconds(0.5f);
         referee.startCount();
+        cameraShader.GetHit();
         yield return new WaitForSeconds(1.5f);
         for (int i = 1; i < 11; i++)
         {
@@ -281,6 +287,7 @@ public class TysonFight : MonoBehaviour
                 referee.stopCount();
                 Tyson.StopTaunt();
             }
+            cameraShader.GetHit();
 
             Debug.Log(i);
             if (i != 10)
