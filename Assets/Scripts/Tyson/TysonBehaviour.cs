@@ -209,7 +209,8 @@ public class TysonBehaviour : MonoBehaviour
     {
 
         yield return new WaitForSeconds(2);
-
+        if (manager.fightEnded)
+            StopCoroutine(TryToGetUp());
         yield return new WaitForSeconds(Random.Range(1,9));
 
                 health.healt += 90;
