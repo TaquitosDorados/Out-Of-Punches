@@ -73,7 +73,7 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _ToggleSwitch0: 0
-    - _Transition: -0.99999994
+    - _Transition: -0.99876535
     - _TransitionSize: 1
     - _UVSec: 0
     - _ZWrite: 1
